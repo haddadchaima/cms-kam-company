@@ -1,0 +1,55 @@
+.preview {
+    overflow: hidden;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+.modal-lg {
+    max-width: 1000px !important;
+}
+.importer {
+    text-align: center;
+}
+
+.update_photo {
+    z-index: 1;
+    position: relative;
+}
+.list-update-photo li {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+}
+.list-update-photo li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+.select {
+    border-bottom: 2px solid DodgerBlue;
+}
+.photo-list {
+    list-style-type: none;
+}
+.photo-list li {
+    display: inline-block;
+    margin: 0.6em;
+    padding: 0.5em;
+    border-radius: 8px;
+}
+.field-icon {
+    float: right;
+    margin-left: -10px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .container{
+    padding-top:50px;
+    margin: auto;
+  }
+
+

@@ -1,0 +1,21 @@
+.filter{
+    display:none;
+    position:relative;
+   
+}
+#id_filter{
+    background-color:#EDEEEF;
+    padding:10px;
+     border:none;
+     border-top-left-radius:25px 25px;
+     border-bottom-left-radius:25px 25px
+}
+.ipusearch{
+    border-top-left-radius:0px 0px !important;
+    border-bottom-left-radius:0px 0px !important;
+}
+#resultsearch{
+    position: absolute;
+    width:90%;
+    margin-top:7px;
+}

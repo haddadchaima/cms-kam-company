@@ -1,0 +1,92 @@
+.action {
+    z-index: 1;
+    position: relative;
+    display: flex;
+	  flex-direction: row;
+  	flex-wrap: nowrap;
+  	justify-content: space-around;
+  	align-items: stretch;
+    align-content: stretch;
+    border-top: 1px solid grey;
+    padding-top: 5px;
+}
+.action li {
+    text-decoration: none;
+    list-style: none;
+    display: inline;  
+}
+.action li a {
+    color: rgb(105, 102, 102);
+    text-decoration: none;
+   
+}
+.totalreacts{
+    padding: 15px;
+    z-index: 1;
+    }
+    
+.totalreacts i{
+    border:white 1px solid;
+    border-radius: 50%;
+     }
+  
+.jaime{
+    padding: 3px;
+    color:rgb(230, 225, 225);
+    background-color: rgb(52, 52, 245);
+    
+  }
+  .jadore{
+     padding: 4px;
+     color:white;
+     background-color: red;  
+     margin-right: -15px; 
+  }
+  .totalreacts strong{
+ 
+     color:#c5c2c2
+  }   
+
+
+  #menu{
+     
+    font-family: Arial, Verdana;
+  
+    position: absolute;
+    z-index: 2;
+
+    background-color: white;
+    width: 400px;
+    border:1px solid grey;
+    border-radius: 15px;
+    min-height: 200px;
+    margin-top: -150px;
+    margin-left: 70px;
+  
+  }
+ #menu ul{
+    font-family: Arial, Verdana;
+  
+    list-style: none;
+    text-decoration: none;
+
+}
+#menu > ul li{
+    display: inline;
+    padding-right: 15px;
+ 
+
+}
+
+#menu > ul li a{
+  
+
+    color: rgb(192, 189, 189);
+}
+.listlike:hover{
+    color: blue;
+}
+.listlove:hover{
+    color:red;
+}
+
